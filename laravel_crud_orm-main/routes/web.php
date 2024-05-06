@@ -11,3 +11,5 @@ Route::get('posts/{id}/edit', [PostController::class, 'edit'])->name('posts.edit
 Route::put('posts/{id}/update', [PostController::class, 'update'])->name('posts.update');
 Route::delete('posts/{id}/destroy', [PostController::class, 'delete'])->name('posts.destroy');
 Route::get('products', [ProductController::class, 'index'])->name('products.index');
+Route::get('/profile', function () {   return view('profile');})->name('profile');
+

@@ -46,5 +46,6 @@
     </table>
     <a href="{{ route('products.create') }}" class="btn btn-success">Tambah Produk</a>
     <a href="{{ route('home') }}" class="btn btn-primary">Kembali ke Produk</a>
+    <a href="{{ route('profile') }}" class="btn btn-info">Lihat Profil</a>
 </div>
 @endsection
